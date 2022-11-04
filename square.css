@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.big-box {
+  max-width: 509px;
+  width: 100%;
+  margin: auto;
+}
+.box {
+  display: flex;
+  justify-content: start;
+  gap: 1px;
+  flex-wrap: wrap;
+}
+.square {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+
+@media (max-width: 508px) and (min-width: 458px) {
+  .marge9 {
+    margin-bottom: 10px;
+  }
+  .space9 {
+    margin-right: 255px;
+  }
+  .space1 {
+    margin-right: 410px;
+  }
+}
+
+@media (max-width: 457px) and (min-width: 407px) {
+  .marge8 {
+    margin-bottom: 10px;
+  }
+  .space6 {
+    margin-right: 102px;
+  }
+}
+@media (max-width: 406px) and (min-width: 356px) {
+  .marge7 {
+    margin-bottom: 10px;
+  }
+  .space71 {
+    margin-right: 310px;
+  }
+}
+@media (max-width: 355px) and (min-width: 305px) {
+  .marge6 {
+    margin-bottom: 10px;
+  }
+  .space61 {
+    margin-right: 50px;
+  }
+  .space62 {
+    margin-right: 250px;
+  }
+}
+@media (max-width: 304px) and (min-width: 254px) {
+  .marge5 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 253px) and (min-width: 203px) {
+  .marge4 {
+    margin-bottom: 10px;
+  }
+  .space4 {
+    margin-right: 102px;
+  }
+}
+@media (max-width: 202px) and (min-width: 152px) {
+  .marge3 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 151px) and (min-width: 51px) {
+  .marge2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 99px) {
+  .square {
+    margin-bottom: 10px;
+  }
+}
