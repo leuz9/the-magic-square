@@ -1,8 +1,9 @@
 html,
 body {
   height: 100%;
-}
-body {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -11,6 +12,7 @@ body {
   max-width: 509px;
   width: 100%;
   margin: auto;
+  background-color: white;
 }
 .box {
   display: flex;
